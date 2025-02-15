@@ -32,7 +32,7 @@ export default function LocationSearch({onPlaceClick}: LocationSearchProps) {
             onChange={e => setTerm(e.target.value)}
             />
         </form>
-        <h1 className='mt-6'>Location Results</h1>
+        <h1 className='mt-6 mr-8 lg:mt-8 lg:mr-12'>Location Results</h1>
         <div className='grid grid-cols-[1fr_40px] gap-2 mt-2 items-center'>
         {
             places.map(place => {
